@@ -1,0 +1,33 @@
+/*
+[M1S06] Ex 5 - Criar tabela Veiculo
+
+Campos
+
+Id PK INT
+
+Descricao VARCHAR(100) NOT NULL
+
+DataCriacao DATETIME NOT NULL
+
+TipoMotor  DECIMAL NOT NULL
+
+Valor SMONEY NULL
+
+Vendido BIT NOT NULL
+*/
+
+
+CREATE TABLE Veiculo(
+	Id INT PRIMARY KEY,
+	Descricao VARCHAR(100) NOT NULL,
+	DataCriacao DATETIME NOT NULL,
+	Valor SMALLMONEY NULL,
+	Vendido BIT NOT NULL
+);
+
+ALTER TABLE Veiculo ADD
+	IdCor INT NOT NULL,
+	CONSTRAINT fk_Cor_Veiculo FOREIGN KEY (IdCor) REFERENCES Cor(Id)
+
+ALTER TABLE Veiculo DROP COLUMN IdCor
+

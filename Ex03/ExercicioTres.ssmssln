@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ExercicioTres", "ExercicioTres\ExercicioTres.ssmssqlproj", "{04E853E4-072D-4B49-81A7-840FD70C2D97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E853E4-072D-4B49-81A7-840FD70C2D97}.Default|Default.ActiveCfg = Default
+		{9AE708BB-A394-4023-B592-2BD712E38879}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {678930A7-CD58-43E3-9649-DF8F49C3D07E}
+	EndGlobalSection
+EndGlobal
